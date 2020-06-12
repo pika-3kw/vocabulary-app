@@ -73,7 +73,7 @@ export default function TopAppBar() {
   return (
     <div className={classes.grow}>
       <AppBar position="static">
-        <Toolbar>
+        <Toolbar variant="dense">
           <IconButton
             edge="start"
             className={classes.menuButton}

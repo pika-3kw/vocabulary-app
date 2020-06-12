@@ -9,8 +9,14 @@ import UserPage from "../UserPage";
 import Center from "../Center";
 
 function App() {
+  const appStyle = {
+    height: "100vh",
+    width: "100vw",
+    overflow: "hidden",
+  };
+
   return (
-    <div className="App">
+    <div className="App" style={appStyle}>
       <Router>
         <AppBar />
 

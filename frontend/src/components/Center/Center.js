@@ -4,7 +4,8 @@ import { makeStyles } from "@material-ui/core/styles";
 
 const useStyle = makeStyles((theme) => ({
   Center: {
-    margin: "0px 24px 60px 24px",
+    margin: "24px 24px 60px 24px",
+    height: "70vh",
   },
 }));
 
